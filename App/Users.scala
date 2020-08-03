@@ -1,4 +1,4 @@
-class Pokemon(id: Int, name: String, imgPath: String, inList: Boolean, caught: Boolean){
+class Pokemon(id: Int, name: String, imgPath: String, inList: Boolean, caught: Boolean, order: Int){
     def id(): Int = id
     def name(): String = name
     def imgPath(): String = imgPath
@@ -15,6 +15,13 @@ class Pokemon(id: Int, name: String, imgPath: String, inList: Boolean, caught: B
     def inList(): Boolean = isInList
     def updateInList(): Unit = {
         isInList = !isInList
+    }
+
+    var order_var = order
+
+    def order(): Int = order_var
+    def changeOrder(newOrder: Int): Unit = {
+        order_var = newOrder
     }
 
     def printPokemon(): String = {
@@ -39,7 +46,7 @@ class User(file: String){
 
         def parseInputLine(s: String): Pokemon = {
             val line = s.split(",")
-            return new Pokemon(line(0).toInt, line(1), line(2), line(3).toBoolean, line(4).toBoolean)
+            return new Pokemon(line(0).toInt, line(1), line(2), line(3).toBoolean, line(4).toBoolean, line(5).toInt)
         }
 
         var i = 0
@@ -81,8 +88,42 @@ class User(file: String){
         return index
     }
 
+    var maxInList = pokes.filter(_.order() < 10000).sortBy(_.order()).reverse.head.order()
+    var maxNotInList = pokes.filter(_.order() > 10000).sortBy(_.order()).reverse.head.order()
+
+    def removeFromOrder(id: Int): Unit = {
+        val index = findPokemon(id)
+
+        val orderPos = pokes(index).order()
+
+        if(orderPos < 10000){
+            for(p <- pokes){
+                val po = p.order()
+                if(po > orderPos && po < 10000){
+                    p.changeOrder(po - 1)
+                }
+            }
+
+            pokes(index).changeOrder(maxNotInList + 1)
+            maxNotInList += 1
+        }
+    }
+
+    def addToOrder(id: Int): Unit = {
+        val index = findPokemon(id)
+
+        if(pokes(index).order() >= 10000){
+            pokes(index).changeOrder(maxInList + 1)
+            maxInList += 1
+        }
+    }
+
     def printPokes(): String = {
         var output = ""
+
+        var i = 0
+        var j = 10000
+
         for(p <- pokes){
             output += p.id.toString
             output += ","
@@ -93,6 +134,8 @@ class User(file: String){
             output += p.inList.toString
             output += ","
             output += p.caught.toString
+            output += ","
+            output += p.order.toString
             output += "\n"
         }
         return output
@@ -104,7 +147,7 @@ class User(file: String){
 
         val writer = new PrintWriter(new File(file))
 
-        writer.write("ID,Name,InList,Caught\n")
+        writer.write("ID,Name,ImgPath,InList,Caught,Order\n")
         writer.write(printPokes())
         writer.close()
     }

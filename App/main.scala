@@ -22,7 +22,6 @@ object Pokedex extends SimpleSwingApplication{
 
     def makeImg(u: User, id: Int): BoxPanel = {
         val p = new BoxPanel(Orientation.Horizontal){
-            //println(id)
             val index = u.findPokemon(id)
 
             var currentName = ""                        
@@ -170,16 +169,18 @@ object Pokedex extends SimpleSwingApplication{
             contents += new FlowPanel{
                 contents += changeSourceFile
                 contents += editListButton
+                contents += changeOrderButton
             }
         }
 
         listenTo(changeSourceFile)
         listenTo(editListButton)
+        listenTo(changeOrderButton)
 
         reactions += {
             case ButtonClicked(b) => {
                 if(b == changeSourceFile){
-                    var fileChoose = new FileChooser(null)
+                    var fileChoose = new FileChooser(new java.io.File("./UserList"))
                     val result = fileChoose.showOpenDialog(null)
 
                     if (result == FileChooser.Result.Approve) {
@@ -191,11 +192,15 @@ object Pokedex extends SimpleSwingApplication{
                 else if(b == editListButton){
                     renderEditor(u)                       
                 }
+
+                else if(b == changeOrderButton){
+                    renderOrder(u)
+                }
             }
         }
 
         mainBody.viewportView = new BoxPanel(Orientation.Vertical){
-            var remainingPokemon = u.getPokes.filter(_.inList())
+            var remainingPokemon = u.getPokes.filter(_.inList()).sortBy(_.order())
 
             var boxNo = 1                
             while(!remainingPokemon.isEmpty){
@@ -207,6 +212,8 @@ object Pokedex extends SimpleSwingApplication{
             }
         }
     }
+
+    // Function to show chooser
 
     def renderEditor(u: User): Unit = {
         def makePokemonChooser(p: Pokemon): BoxPanel = {
@@ -236,6 +243,13 @@ object Pokedex extends SimpleSwingApplication{
                 reactions += {
                     case ButtonClicked(b) =>
                         u.pokes(index).updateInList()
+                        
+                        if(u.pokes(index).inList()){
+                            u.addToOrder(p.id())
+                        } else {
+                            u.removeFromOrder(p.id())
+                        }
+
                         b.background = getinListColour(u.pokes(index).inList)
                 }
 
@@ -283,13 +297,30 @@ object Pokedex extends SimpleSwingApplication{
                 listenTo(allButton, notAllButton, allFormsButton)
                 reactions += {
                     case ButtonClicked(b) => {
-                        for(p <- column){
-                            val index = u.findPokemon(p.id())
 
-                            if(p.id() < 1000 || p.id() > 7000){
-                                u.pokes(index).isInList = (b.text == "Select All" || b.text == "Select All Forms")
-                            } else {
-                                u.pokes(index).isInList = (b.text == "Select All Forms")
+                        if(b.text == "Select All"){
+                            for(p <- column){
+                                val index = u.findPokemon(p.id())
+                                if(p.id() < 1000 || p.id() > 7000){
+                                    u.pokes(index).isInList = true
+                                    u.addToOrder(p.id())
+                                }
+                            }
+                        }
+                        
+                        else if(b.text == "Select All Forms"){
+                            for(p <- column){
+                                val index = u.findPokemon(p.id())
+                                u.pokes(index).isInList = true
+                                u.addToOrder(p.id())
+                            }
+                        } 
+                        
+                        else{ 
+                            for(p <- column){
+                                val index = u.findPokemon(p.id())
+                                u.pokes(index).isInList = false
+                                u.removeFromOrder(p.id())
                             }
                         }
 
@@ -343,7 +374,7 @@ object Pokedex extends SimpleSwingApplication{
                 val masterList = u.getPokes()
                 val mainList = masterList.filter(_.id() < 7000)
 
-                val gen1 = mainList.takeWhile(_.id() != 152)
+                val gen1 = mainList.dropWhile(_.id() != 1).takeWhile(_.id() != 152)
                 val gen2 = mainList.dropWhile(_.id() != 152).takeWhile(_.id != 252)
                 val gen3 = mainList.dropWhile(_.id() != 252).takeWhile(_.id != 387)
                 val gen4 = mainList.dropWhile(_.id() != 387).takeWhile(_.id != 494)
@@ -386,6 +417,195 @@ object Pokedex extends SimpleSwingApplication{
         }
     }
 
+    // Functions to reorder pokemon
+
+    var isSelected = false
+    var currentSelected = -1
+
+    def insert(u: User, current: Int, before: Int): Unit = {
+        var ps = u.getPokes().filter(_.isInList)
+
+        val currentOrder = u.getPokes()(u.findPokemon(current)).order()
+        val beforeOrder = u.getPokes()(u.findPokemon(before)).order()
+
+        var shift = 0
+        if(currentOrder > beforeOrder){
+            shift = 1
+        } else {
+            shift = -1
+        }
+
+        val higher = Array(currentOrder, beforeOrder).max
+        val lower = Array(currentOrder, beforeOrder).min
+
+        for(p <- ps){
+            if(p.order() > lower && p.order() < higher){
+                p.changeOrder(p.order() + shift)
+            }
+
+            else if(p.id() == current){
+                if(currentOrder > beforeOrder){
+                    p.changeOrder(beforeOrder)
+                } else {
+                    p.changeOrder(beforeOrder - 1)
+                }
+            }
+
+            else if(p.id() == before){
+                if(currentOrder > beforeOrder){
+                    p.changeOrder(beforeOrder + 1)
+                } else {
+                    p.changeOrder(beforeOrder)
+                }
+            }
+        }
+    }
+
+    def makeOrderImg(u: User, id: Int): BoxPanel = {
+        val p = new BoxPanel(Orientation.Horizontal){
+            val index = u.findPokemon(id)
+
+            var currentName = ""                        
+            if(id != 0){
+                currentName = u.pokes(index).imgPath().toLowerCase
+            } else {
+                currentName = "unknown"
+            }   
+
+            val path = s"regular/$currentName.png"
+            
+            val label = new Button {
+                val img = new ImageIcon(path)
+                val image = img.getImage(); // transform it 
+                val newimg = image.getScaledInstance(40, 40,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way  
+                
+                icon = new ImageIcon(newimg);  // transform it back
+                
+                tooltip = u.pokes(index).name()
+
+                name = id.toString
+            }
+
+            listenTo(label)
+            reactions += {
+                case ButtonClicked(b) =>
+                    if(isSelected){
+                        if(currentSelected != b.name.toInt){
+                            insert(u, currentSelected, b.name.toInt)
+
+                            isSelected = false
+                            currentSelected = -1
+
+                            u.updateCSV()
+                            renderOrder(u)
+                        }
+                    } else {
+                        b.background = new Color(145, 150, 235)
+
+                        isSelected = true
+                        currentSelected = b.name.toInt
+                    }
+            }
+
+            contents += label
+
+            val d = new Dimension(30, 30)
+            maximumSize = d
+            minimumSize = d
+            preferredSize = d
+        }
+
+        return p
+    }
+
+    def makeOrderBox(u: User, pokemon: Array[Pokemon], boxNo: Int): BorderPanel = {
+        assert(pokemon.length <= 30)
+        val box = new GridPanel(5,6){
+            val d = new Dimension(300,200)
+
+            maximumSize = d
+            minimumSize = d
+            preferredSize = d
+        }
+
+        var i = 0
+        while(i < 30 && i < pokemon.length){
+            val id = pokemon(i).id()
+            box.contents += makeOrderImg(u, id)
+            i += 1
+        }
+
+        while(i < 30){
+            box.contents += makeOrderImg(u, 0)
+            i += 1
+        }
+
+        val boxHeader = new BorderPanel{
+            val label = new Label(s"Box $boxNo")
+            label.font = new java.awt.Font("Handwriting - Dakota", java.awt.Font.PLAIN, 20)
+
+            add(label, BorderPanel.Position.Center)
+        }
+
+        val borderBox = new BorderPanel{
+            add(boxHeader, BorderPanel.Position.North)
+            add(box, BorderPanel.Position.Center)
+            add(new Label(" "), BorderPanel.Position.South)
+
+            val d = new Dimension(475, 250)
+
+            maximumSize = d
+            minimumSize = d
+            preferredSize = d
+
+            border = new javax.swing.border.EmptyBorder(10, 15, 10, 15)
+        }
+
+        return borderBox
+    }
+
+    def renderOrder(u: User): Unit = {
+        mainBody.columnHeaderView = new BoxPanel(Orientation.Vertical){
+            contents += new FlowPanel{
+                contents += new Button(
+                    Action("Done"){
+                        u.updateCSV()
+
+                        isSelected = false
+
+                        percent = u.percentCaught()
+                        percentProgress.value = percent.toInt
+                        percentProgress.label = percent.toString.take(5) + "%"
+
+                        render(u)
+                    }
+                )
+            }
+        }
+
+        mainBody.viewportView = new BoxPanel(Orientation.Vertical){
+            var ps = u.getPokes().filter(_.isInList).sortBy(_.order())
+            val rows = 1 + (ps.length / 120)
+
+            contents += new GridPanel(rows,4){
+                
+                var boxNo = 1
+                while(!ps.isEmpty){
+                    contents += makeOrderBox(u, ps.take(30), boxNo)
+
+                    ps = ps.drop(30)
+                    boxNo += 1
+                }
+                
+                val d = new Dimension(1900, 270*rows)
+
+                maximumSize = d
+                minimumSize = d
+                preferredSize = d
+            }
+        }
+    }
+
     // Global Components
 
     var percent: Double = 0.0 
@@ -413,26 +633,6 @@ object Pokedex extends SimpleSwingApplication{
 
     val mainBody = new ScrollPane{
         columnHeaderView = new BoxPanel(Orientation.Vertical)
-
-        rowHeaderView = new BorderPanel{
-            val notesLabel = new Label("Notes:")
-            notesLabel.font = new java.awt.Font("Handwriting - Dakota", java.awt.Font.PLAIN, 24)
-
-            val notesLabelPanel = new BorderPanel{
-                add(notesLabel, BorderPanel.Position.West)
-            }
-
-            add(notesLabelPanel, BorderPanel.Position.North)
-
-            val notes = new TextArea(""){
-                lineWrap = true
-                preferredSize = new Dimension(300, 300)
-            }
-            notes.font = new java.awt.Font("Handwriting - Dakota", java.awt.Font.PLAIN, 16)
-
-            add(notes, BorderPanel.Position.Center)
-        }
-
         viewportView = new BoxPanel(Orientation.Vertical)
     }
 
@@ -442,6 +642,10 @@ object Pokedex extends SimpleSwingApplication{
 
     val editListButton = new Button{
         text = "Edit List"
+    }
+
+    val changeOrderButton = new Button{
+        text = "Change Order"
     }
 
     // Main function    

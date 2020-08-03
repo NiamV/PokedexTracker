@@ -1,0 +1,1412 @@
+ID,Name,ImgPath,InList,Caught,Order
+0,unknown,unknown,false,false,-1
+1,Bulbasaur,Bulbasaur,true,true,0
+2,Ivysaur,Ivysaur,true,true,1
+3,Venusaur,Venusaur,true,true,2
+5001,Venusaur (Female),Venusaur,true,true,3
+7531,G-Max Venusaur,Venusaur-Gmax,true,true,4
+7046,Mega Venusaur,Venusaur-Mega,false,false,10000
+4,Charmander,Charmander,true,true,5
+5,Charmeleon,Charmeleon,true,true,6
+6,Charizard,Charizard,true,true,7
+7504,G-Max Charizard,Charizard-Gmax,true,true,8
+7014,Mega Charizard X,Charizard-Mega-X,false,false,10001
+7015,Mega Charizard Y,Charizard-Mega-Y,false,false,10002
+7,Squirtle,Squirtle,true,true,9
+8,Wartortle,Wartortle,true,true,10
+9,Blastoise,Blastoise,true,true,11
+7501,G-Max Blastoise,Blastoise-Gmax,true,true,12
+7011,Mega Blastoise,Blastoise-Mega,false,false,10003
+10,Caterpie,Caterpie,true,true,13
+11,Metapod,Metapod,true,true,14
+12,Butterfree,Butterfree,true,true,15
+5002,Butterfree (Female),Butterfree,true,true,16
+7502,G-Max Butterfree,Butterfree-Gmax,true,true,17
+13,Weedle,Weedle,true,true,18
+14,Kakuna,Kakuna,true,true,19
+15,Beedrill,Beedrill,true,true,20
+7010,Mega Beedrill,Beedrill-Mega,false,false,10004
+16,Pidgey,Pidgey,true,true,21
+17,Pidgeotto,Pidgeotto,true,true,22
+18,Pidgeot,Pidgeot,true,true,23
+7035,Mega Pidgeot,Pidgeot-Mega,false,false,10005
+19,Rattata,Rattata,true,true,24
+5003,Rattata (Female),Rattata,true,true,25
+8015,Alolan Rattata,Rattata-Alola,true,true,26
+20,Raticate,Raticate,true,true,27
+5004,Raticate (Female),Raticate,true,true,28
+8014,Alolan Raticate,Raticate-Alola,true,true,29
+21,Spearow,Spearow,true,true,30
+22,Fearow,Fearow,true,true,31
+23,Ekans,Ekans,true,true,32
+24,Arbok,Arbok,true,true,33
+25,Pikachu,Pikachu,true,true,34
+5005,Pikachu (Female),female/Pikachu,true,true,35
+7524,G-Max Pikachu,Pikachu-Gmax,true,true,36
+6057,Original Cap Pikachu,Pikachu-Original-Cap,true,true,37
+6055,Hoenn Cap Pikachu,Pikachu-Hoenn-Cap,true,true,38
+6059,Sinnoh Cap Pikachu,Pikachu-Sinnoh-Cap,true,true,39
+6060,Unova Cap Pikachu,Pikachu-Unova-Cap,true,true,40
+6056,Kalos Cap Pikachu,Pikachu-Kalos-Cap,true,true,41
+6054,Alola Cap Pikachu,Pikachu-Alola-Cap,true,true,42
+6058,Partner Cap Pikachu,Pikachu-Partner-Cap,true,true,43
+6061,World Cap Pikachu,Pikachu-World-Cap,false,false,10006
+6063,Cosplay Pikachu,Pikachu-Cosplay,false,false,10007
+6062,Belle Pikachu,Pikachu-Belle,false,false,10008
+6064,Licre Pikachu,Pikachu-Libre,false,false,10009
+6065,PhD Pikachu,Pikachu-Phd,false,false,10010
+6066,Pop Star Pikachu,Pikachu-Pop-Star,false,false,10011
+6097,Rock Star Pikachu,Pikachu-Rock-Star,false,false,10012
+6067,Starter Pikachu,Pikachu-Starter,false,false,10013
+26,Raichu,Raichu,true,true,44
+5006,Raichu (Female),Raichu,true,true,45
+8013,Alolan Raichu,Raichu-Alola,true,true,46
+27,Sandshrew,Sandshrew,true,true,47
+8016,Alolan Sandshrew,Sandshrew-Alola,true,true,48
+28,Sandslash,Sandslash,true,true,49
+8017,Alolan Sandslash,Sandslash-Alola,true,true,50
+29,Nidoran-m,Nidoran-m,true,true,51
+30,Nidorina,Nidorina,true,true,52
+31,Nidoqueen,Nidoqueen,true,true,53
+32,Nidoran-f,Nidoran-f,true,true,54
+33,Nidorino,Nidorino,true,true,55
+34,Nidoking,Nidoking,true,true,56
+35,Clefairy,Clefairy,true,true,57
+36,Clefable,Clefable,true,true,58
+37,Vulpix,Vulpix,true,true,59
+8018,Alolan Vulpix,Vulpix-Alola,true,true,60
+38,Ninetales,Ninetales,true,true,61
+8011,Alolan Ninetales,Ninetales-Alola,true,true,62
+39,Jigglypuff,Jigglypuff,true,true,63
+40,Wigglytuff,Wigglytuff,true,true,64
+41,Zubat,Zubat,true,true,65
+5007,Zubat (Female),Zubat,true,true,66
+42,Golbat,Golbat,true,true,67
+5008,Golbat (Female),Golbat,true,true,68
+43,Oddish,Oddish,true,true,69
+44,Gloom,Gloom,true,true,70
+5008,Gloom (Female),Gloom,true,true,71
+45,Vileplume,Vileplume,true,true,72
+5009,Vileplume (Female),Vileplume,true,true,73
+46,Paras,Paras,true,true,74
+47,Parasect,Parasect,true,true,75
+48,Venonat,Venonat,true,true,76
+49,Venomoth,Venomoth,true,true,77
+50,Diglett,Diglett,true,true,78
+8001,Alolan Diglett,Diglett-Alola,true,true,79
+51,Dugtrio,Dugtrio,true,true,80
+8002,Alolan Dugtrio,Dugtrio-Alola,true,true,81
+52,Meowth,Meowth,true,true,82
+8009,Alolan Meowth,Meowth-Alola,true,true,83
+8506,Galarian Meowth,Meowth-Galar,true,true,84
+7522,G-Max Meowth,Meowth-Gmax,true,true,85
+53,Persian,Persian,true,true,86
+8012,Alolan Persian,Persian-Alola,true,true,87
+54,Psyduck,Psyduck,true,true,88
+55,Golduck,Golduck,true,true,89
+56,Mankey,Mankey,true,true,90
+57,Primeape,Primeape,true,true,91
+58,Growlithe,Growlithe,true,true,92
+59,Arcanine,Arcanine,true,true,93
+60,Poliwag,Poliwag,true,true,94
+61,Poliwhirl,Poliwhirl,true,true,95
+62,Poliwrath,Poliwrath,true,true,96
+63,Abra,Abra,true,true,97
+64,Kadabra,Kadabra,true,true,98
+5011,Kadabra (Female),Kadabra,true,true,99
+65,Alakazam,Alakazam,true,true,100
+5012,Alakazam (Female),Alakazam,true,true,101
+7005,Mega Alakazam,Alakazam-Mega,false,false,10014
+66,Machop,Machop,true,true,102
+67,Machoke,Machoke,true,true,103
+68,Machamp,Machamp,true,true,104
+7521,G-Max Machamp,Machamp-Gmax,true,true,105
+69,Bellsprout,Bellsprout,true,true,106
+70,Weepinbell,Weepinbell,true,true,107
+71,Victreebel,Victreebel,true,true,108
+72,Tentacool,Tentacool,true,true,109
+73,Tentacruel,Tentacruel,true,true,110
+74,Geodude,Geodude,true,true,111
+8004,Alolan Geodude,Geodude-Alola,true,true,112
+75,Graveler,Graveler,true,true,113
+8006,Alolan Graveler,Graveler-Alola,true,true,114
+76,Golem,Golem,true,true,115
+8005,Alolan Golem,Golem-Alola,true,true,116
+77,Ponyta,Ponyta,true,true,117
+8508,Galarian Ponyta,Ponyta-Galar,true,true,118
+78,Rapidash,Rapidash,true,true,119
+8509,Galarian Rapidash,Rapidash-Galar,true,true,120
+79,Slowpoke,Slowpoke,true,true,121
+8511,Galarian Slowpoke,Slowpoke-Galar,true,true,122
+80,Slowbro,Slowbro,true,true,123
+8510,Galarian Slowbro,Slowbro-Galar,true,true,124
+7043,Mega Slowbro,Slowbro-Mega,false,false,10015
+81,Magnemite,Magnemite,true,true,125
+82,Magneton,Magneton,true,true,126
+83,Farfetch'd,Farfetchd,true,true,127
+8504,Galarian Farfetch'd,Farfetchd-Galar,true,true,128
+84,Doduo,Doduo,true,true,129
+5013,Doduo (Female),Doduo,true,true,130
+85,Dodrio,Dodrio,true,true,131
+5014,Dodrio (Female),Dodrio,true,true,132
+86,Seel,Seel,true,true,133
+87,Dewgong,Dewgong,true,true,134
+88,Grimer,Grimer,true,true,135
+8007,Alolan Grimer,Grimer-Alola,true,true,136
+89,Muk,Muk,true,true,137
+8010,Alolan Muk,Muk-Alola,true,true,138
+90,Shellder,Shellder,true,true,139
+91,Cloyster,Cloyster,true,true,140
+92,Gastly,Gastly,true,true,141
+93,Haunter,Haunter,true,true,142
+94,Gengar,Gengar,true,true,143
+7515,G-Max Gengar,Gengar-Gmax,true,true,144
+7019,Mega Gengar,Gengar-Mega,false,false,10016
+95,Onix,Onix,true,true,145
+96,Drowzee,Drowzee,true,true,146
+97,Hypno,Hypno,true,true,147
+5015,Hypno (Female),Hypno,true,true,148
+98,Krabby,Krabby,true,true,149
+99,Kingler,Kingler,true,true,150
+7519,G-Max Kingler,Kingler-Gmax,true,true,151
+100,Voltorb,Voltorb,true,true,152
+101,Electrode,Electrode,true,true,153
+102,Exeggcute,Exeggcute,true,true,154
+103,Exeggutor,Exeggutor,true,true,155
+8003,Alolan Exeggutor,Exeggutor-Alola,true,true,156
+104,Cubone,Cubone,true,true,157
+105,Marowak,Marowak,true,true,158
+8008,Alolan Marowak,Marowak-Alola,true,true,159
+106,Hitmonlee,Hitmonlee,true,true,160
+107,Hitmonchan,Hitmonchan,true,true,161
+108,Lickitung,Lickitung,true,true,162
+109,Koffing,Koffing,true,true,163
+110,Weezing,Weezing,true,true,164
+8513,Galarian Weezing,Weezing-Galar,true,true,165
+111,Rhyhorn,Rhyhorn,true,true,166
+5016,Rhyhorn (Female),Rhyhorn,true,true,167
+112,Rhydon,Rhydon,true,true,168
+5017,Rhydon (Female),Rhydon,true,true,169
+113,Chansey,Chansey,true,true,170
+114,Tangela,Tangela,true,true,171
+115,Kangaskhan,Kangaskhan,true,true,172
+7024,Mega Kangaskhan,Kangaskhan-Mega,false,false,10017
+116,Horsea,Horsea,true,true,173
+117,Seadra,Seadra,true,true,174
+118,Goldeen,Goldeen,true,true,175
+5018,Goldeen (Female),Goldeen,true,true,176
+119,Seaking,Seaking,true,true,177
+5019,Seaking (Female),Seaking,true,true,178
+120,Staryu,Staryu,true,true,179
+121,Starmie,Starmie,true,true,180
+122,Mr. Mime,Mr-Mime,true,true,181
+8507,Galarian Mr. Mime,Mr-Mime-Galar,true,true,182
+123,Scyther,Scyther,true,true,183
+5020,Scyther (Female),Scyther,true,true,184
+124,Jynx,Jynx,true,true,185
+125,Electabuzz,Electabuzz,true,true,186
+126,Magmar,Magmar,true,true,187
+127,Pinsir,Pinsir,true,true,188
+7036,Mega Pinsir,Pinsir-Mega,false,false,10018
+128,Tauros,Tauros,true,true,189
+129,Magikarp,Magikarp,true,true,190
+5021,Magikarp (Female),Magikarp,true,true,191
+130,Gyarados,Gyarados,true,true,192
+5022,Gyarados (Female),Gyarados,true,true,193
+7021,Mega Gyarados,Gyarados-Mega,false,false,10019
+131,Lapras,Lapras,true,true,194
+7520,G-Max Lapras,Lapras-Gmax,true,true,195
+132,Ditto,Ditto,true,true,196
+133,Eevee,Eevee,true,true,197
+5023,Eevee (Female),Eevee,true,true,198
+7511,G-Max Eevee,Eevee-Gmax,true,true,199
+6013,Eevee (Starter),Eevee-Starter,false,false,10020
+134,Vaporeon,Vaporeon,true,true,200
+135,Jolteon,Jolteon,true,true,201
+136,Flareon,Flareon,true,true,202
+137,Porygon,Porygon,true,true,203
+138,Omanyte,Omanyte,true,true,204
+139,Omastar,Omastar,true,true,205
+140,Kabuto,Kabuto,true,true,206
+141,Kabutops,Kabutops,true,true,207
+142,Aerodactyl,Aerodactyl,true,true,208
+7003,Mega Aerodactyl,Aerodactyl-Mega,false,false,10021
+143,Snorlax,Snorlax,true,true,209
+7527,G-Max Snorlax,Snorlax-Gmax,true,true,210
+144,Articuno,Articuno,true,true,211
+145,Zapdos,Zapdos,true,true,212
+146,Moltres,Moltres,true,true,213
+147,Dratini,Dratini,true,true,214
+148,Dragonair,Dragonair,true,true,215
+149,Dragonite,Dragonite,true,true,216
+150,Mewtwo,Mewtwo,true,true,217
+7033,Mega Mewtwo-X,Mewtwo-Mega-X,false,false,10022
+7034,Mega Mewtwo-Y,Mewtwo-Mega-Y,false,false,10023
+151,Mew,Mew,true,true,218
+152,Chikorita,Chikorita,true,true,219
+153,Bayleef,Bayleef,true,true,220
+154,Meganium,Meganium,true,true,221
+5024,Meganium (Female),Meganium,true,true,222
+155,Cyndaquil,Cyndaquil,true,true,223
+156,Quilava,Quilava,true,true,224
+157,Typhlosion,Typhlosion,true,true,225
+158,Totodile,Totodile,true,true,226
+159,Croconaw,Croconaw,true,true,227
+160,Feraligatr,Feraligatr,true,true,228
+161,Sentret,Sentret,true,true,229
+162,Furret,Furret,true,true,230
+163,Hoothoot,Hoothoot,true,true,231
+164,Noctowl,Noctowl,true,true,232
+165,Ledyba,Ledyba,true,true,233
+5025,Ledyba (Female),Ledyba,true,true,234
+166,Ledian,Ledian,true,true,235
+5026,Ledian (Female),Ledian,true,true,236
+167,Spinarak,Spinarak,true,true,237
+168,Ariados,Ariados,true,true,238
+169,Crobat,Crobat,true,true,239
+170,Chinchou,Chinchou,true,true,240
+171,Lanturn,Lanturn,true,true,241
+172,Pichu,Pichu,true,true,242
+6053,Spiky Eared Pichu,Pichu-Spiky-Eared,false,false,10024
+173,Cleffa,Cleffa,true,true,243
+174,Igglybuff,Igglybuff,true,true,244
+175,Togepi,Togepi,true,true,245
+176,Togetic,Togetic,true,true,246
+177,Natu,Natu,true,true,247
+178,Xatu,Xatu,true,true,248
+5027,Xatu (Female),Xatu,true,true,249
+179,Mareep,Mareep,true,true,250
+180,Flaaffy,Flaaffy,true,true,251
+181,Ampharos,Ampharos,true,true,252
+7007,Mega Ampharos,Ampharos-Mega,false,false,10025
+182,Bellossom,Bellossom,true,true,253
+183,Marill,Marill,true,true,254
+184,Azumarill,Azumarill,true,true,255
+185,Sudowoodo,Sudowoodo,true,true,256
+5028,Sudowoodo (Female),Sudowoodo,true,true,257
+186,Politoed,Politoed,true,true,258
+5029,Politoed (Female),Politoed,true,true,259
+187,Hoppip,Hoppip,true,true,260
+188,Skiploom,Skiploom,true,true,261
+189,Jumpluff,Jumpluff,true,true,262
+190,Aipom,Aipom,true,true,263
+5030,Aipom (Female),Aipom,true,true,264
+191,Sunkern,Sunkern,true,true,265
+192,Sunflora,Sunflora,true,true,266
+193,Yanma,Yanma,true,true,267
+194,Wooper,Wooper,true,true,268
+5031,Wooper (Female),Wooper,true,true,269
+195,Quagsire,Quagsire,true,true,270
+5032,Quagsire (female),Quagsire,true,true,271
+196,Espeon,Espeon,true,true,272
+197,Umbreon,Umbreon,true,true,273
+198,Murkrow,Murkrow,true,true,274
+5033,Murkrow (Female),Murkrow,true,true,275
+199,Slowking,Slowking,true,true,276
+200,Misdreavus,Misdreavus,true,true,277
+201,Unown-A,Unown,true,true,278
+9401,Unown-B,unown-b,true,true,279
+9402,Unown-C,unown-c,true,true,280
+9403,Unown-D,unown-d,true,true,281
+9404,Unown-E,unown-e,true,true,282
+9405,Unown-!,unown-exclamation,true,true,283
+9406,Unown-F,unown-f,true,true,284
+9407,Unown-G,unown-g,true,true,285
+9408,Unown-H,unown-h,true,true,286
+9409,Unown-I,unown-i,true,true,287
+9410,Unown-J,unown-j,true,true,288
+9411,Unown-K,unown-k,true,true,289
+9412,Unown-L,unown-l,true,true,290
+9413,Unown-M,unown-m,true,true,291
+9414,Unown-N,unown-n,true,true,292
+9415,Unown-O,unown-o,true,true,293
+9416,Unown-P,unown-p,true,true,294
+9417,Unown-Q,unown-q,true,true,295
+9418,Unown-?,unown-question,true,true,296
+9419,Unown-R,unown-r,true,true,297
+9420,Unown-S,unown-s,true,true,298
+9421,Unown-T,unown-t,true,true,299
+9422,Unown-U,unown-u,true,true,300
+9423,Unown-V,unown-v,true,true,301
+9424,Unown-W,unown-w,true,true,302
+9425,Unown-X,unown-x,true,true,303
+9426,Unown-Y,unown-y,true,true,304
+9427,Unown-Z,unown-z,true,true,305
+202,Wobbuffet,Wobbuffet,true,true,306
+5034,Wobbuffet (Female),Wobbuffet,true,true,307
+203,Girafarig,Girafarig,true,true,308
+5035,Girafarig (Female),Girafarig,true,true,309
+204,Pineco,Pineco,true,true,310
+205,Forretress,Forretress,true,true,311
+206,Dunsparce,Dunsparce,true,true,312
+207,Gligar,Gligar,true,true,313
+5036,Gligar (Female),Gligar,true,true,314
+208,Steelix,Steelix,true,true,315
+5037,Steelix (Female),Steelix,true,true,316
+7044,Mega Steelix,Steelix-Mega,false,false,10026
+209,Snubbull,Snubbull,true,true,317
+210,Granbull,Granbull,true,true,318
+211,Qwilfish,Qwilfish,true,true,319
+212,Scizor,Scizor,true,true,320
+5038,Scizor (Female),Scizor,true,true,321
+7041,Mega Scizor,Scizor-Mega,false,false,10027
+213,Shuckle,Shuckle,true,true,322
+214,Heracross,Heracross,true,true,323
+5039,Heracross (Female),Heracross,true,true,324
+7022,Mega Heracross,Heracross-Mega,false,false,10028
+215,Sneasel,Sneasel,true,true,325
+5040,Sneasel (Female),Sneasel,true,true,326
+216,Teddiursa,Teddiursa,true,true,327
+217,Ursaring,Ursaring,true,true,328
+5041,Ursaring (Female),Ursaring,true,true,329
+218,Slugma,Slugma,true,true,330
+219,Magcargo,Magcargo,true,true,331
+220,Swinub,Swinub,true,true,332
+221,Piloswine,Piloswine,true,true,333
+5042,Piloswine (Female),Piloswine,true,true,334
+222,Corsola,Corsola,true,true,335
+8501,Galarian Corsola,Corsola-Galar,true,true,336
+223,Remoraid,Remoraid,true,true,337
+224,Octillery,Octillery,true,true,338
+5043,Octillery (Female),Octillery,true,true,339
+225,Delibird,Delibird,true,true,340
+226,Mantine,Mantine,true,true,341
+227,Skarmory,Skarmory,true,true,342
+228,Houndour,Houndour,true,true,343
+229,Houndoom,Houndoom,true,true,344
+5044,Houndoom (Female),Houndoom,true,true,345
+7023,Mega Houndoom,Houndoom-Mega,false,false,10029
+230,Kingdra,Kingdra,true,true,346
+231,Phanpy,Phanpy,true,true,347
+232,Donphan,Donphan,true,true,348
+5045,Donphan (Female),Donphan,true,true,349
+233,Porygon2,Porygon2,true,true,350
+234,Stantler,Stantler,true,true,351
+235,Smeargle,Smeargle,true,true,352
+236,Tyrogue,Tyrogue,true,true,353
+237,Hitmontop,Hitmontop,true,true,354
+238,Smoochum,Smoochum,true,true,355
+239,Elekid,Elekid,true,true,356
+240,Magby,Magby,true,true,357
+241,Miltank,Miltank,true,true,358
+242,Blissey,Blissey,true,true,359
+243,Raikou,Raikou,true,true,360
+244,Entei,Entei,true,true,361
+245,Suicune,Suicune,true,true,362
+246,Larvitar,Larvitar,true,true,363
+247,Pupitar,Pupitar,true,true,364
+248,Tyranitar,Tyranitar,true,true,365
+7045,Mega Tyranitar,Tyranitar-Mega,false,false,10030
+249,Lugia,Lugia,true,true,366
+250,Ho-Oh,Ho-Oh,true,true,367
+251,Celebi,Celebi,true,true,368
+252,Treecko,Treecko,true,true,369
+253,Grovyle,Grovyle,true,true,370
+254,Sceptile,Sceptile,true,true,371
+7040,Mega Sceptile,Sceptile-Mega,false,false,10031
+255,Torchic,Torchic,true,true,372
+5046,Torchic (Female),Torchic,true,true,373
+256,Combusken,Combusken,true,true,374
+5047,Combusken (Female),Combusken,true,true,375
+257,Blaziken,Blaziken,true,true,376
+5048,Blaziken (Female),Blaziken,true,true,377
+7012,Mega Blaziken,Blaziken-Mega,false,false,10032
+258,Mudkip,Mudkip,true,true,378
+259,Marshtomp,Marshtomp,true,true,379
+260,Swampert,Swampert,true,true,380
+7048,Mega Swampert,Swampert-Mega,false,false,10033
+261,Poochyena,Poochyena,true,true,381
+262,Mightyena,Mightyena,true,true,382
+263,Zigzagoon,Zigzagoon,true,true,383
+8515,Galarian Zigzagoon,Zigzagoon-Galar,true,true,384
+264,Linoone,Linoone,true,true,385
+8505,Galarian Linoone,Linoone-Galar,true,true,386
+265,Wurmple,Wurmple,true,true,387
+266,Silcoon,Silcoon,true,true,388
+267,Beautifly,Beautifly,true,true,389
+5049,Beautifly (Female),Beautifly,true,true,390
+268,Cascoon,Cascoon,true,true,391
+269,Dustox,Dustox,true,true,392
+5050,Dustox (Female),Dustox,true,true,393
+270,Lotad,Lotad,true,true,394
+271,Lombre,Lombre,true,true,395
+272,Ludicolo,Ludicolo,true,true,396
+5051,Ludicolo (Female),Ludicolo,true,true,397
+273,Seedot,Seedot,true,true,398
+274,Nuzleaf,Nuzleaf,true,true,399
+5052,Nuzleaf (Female),Nuzleaf,true,true,400
+275,Shiftry,Shiftry,true,true,401
+5053,Shiftry (Female),Shiftry,true,true,402
+276,Taillow,Taillow,true,true,403
+277,Swellow,Swellow,true,true,404
+278,Wingull,Wingull,true,true,405
+279,Pelipper,Pelipper,true,true,406
+280,Ralts,Ralts,true,true,407
+281,Kirlia,Kirlia,true,true,408
+282,Gardevoir,Gardevoir,true,true,409
+7047,Mega Gardevoir,Gardevoir-Mega,false,false,10034
+283,Surskit,Surskit,true,true,410
+284,Masquerain,Masquerain,true,true,411
+285,Shroomish,Shroomish,true,true,412
+286,Breloom,Breloom,true,true,413
+287,Slakoth,Slakoth,true,true,414
+288,Vigoroth,Vigoroth,true,true,415
+289,Slaking,Slaking,true,true,416
+290,Nincada,Nincada,true,true,417
+291,Ninjask,Ninjask,true,true,418
+292,Shedinja,Shedinja,true,true,419
+293,Whismur,Whismur,true,true,420
+294,Loudred,Loudred,true,true,421
+295,Exploud,Exploud,true,true,422
+296,Makuhita,Makuhita,true,true,423
+297,Hariyama,Hariyama,true,true,424
+298,Azurill,Azurill,true,true,425
+299,Nosepass,Nosepass,true,true,426
+300,Skitty,Skitty,true,true,427
+301,Delcatty,Delcatty,true,true,428
+302,Sableye,Sableye,true,true,429
+7038,Mega Sableye,Sableye-Mega,false,false,10035
+303,Mawile,Mawile,true,true,430
+7030,Mega Mawile,Mawile-Mega,false,false,10036
+304,Aron,Aron,true,true,431
+305,Lairon,Lairon,true,true,432
+306,Aggron,Aggron,true,true,433
+7004,Mega Aggron,Aggron-Mega,false,false,10037
+307,Meditite,Meditite,true,true,434
+5054,Meditite (Female),Meditite,true,true,435
+308,Medicham,Medicham,true,true,436
+5055,Medicham (Female),Medicham,true,true,437
+7031,Mega Medicham,Medicham-Mega,false,false,10038
+309,Electrike,Electrike,true,true,438
+310,Manectric,Manectric,true,true,439
+7029,Mega Manetric,Manetric-Mega,false,false,10039
+311,Plusle,Plusle,true,true,440
+312,Minun,Minun,true,true,441
+313,Volbeat,Volbeat,true,true,442
+314,Illumise,Illumise,true,true,443
+315,Roselia,Roselia,true,true,444
+5056,Roselia (Female),Roselia,true,true,445
+316,Gulpin,Gulpin,true,true,446
+5057,Gulpin (Female),Gulpin,true,true,447
+317,Swalot,Swalot,true,true,448
+5058,Swalot (Female),Swalot,true,true,449
+318,Carvanha,Carvanha,true,true,450
+319,Sharpedo,Sharpedo,true,true,451
+7042,Mega Sharpedo,Sharpedo-Mega,false,false,10040
+320,Wailmer,Wailmer,true,true,452
+321,Wailord,Wailord,true,true,453
+322,Numel,Numel,true,true,454
+5059,Numel (Female),Numel,true,true,455
+323,Camerupt,Camerupt,true,true,456
+5060,Camerupt (Female),Camerupt,true,true,457
+7013,Mega Camerupt,Camerupt-Mega,false,false,10041
+324,Torkoal,Torkoal,true,true,458
+325,Spoink,Spoink,true,true,459
+326,Grumpig,Grumpig,true,true,460
+327,Spinda,Spinda,true,true,461
+328,Trapinch,Trapinch,true,true,462
+329,Vibrava,Vibrava,true,true,463
+330,Flygon,Flygon,true,true,464
+331,Cacnea,Cacnea,true,true,465
+332,Cacturne,Cacturne,true,true,466
+5061,Cacturne (Female),Cacturne,true,true,467
+333,Swablu,Swablu,true,true,468
+334,Altaria,Altaria,true,true,469
+7006,Mega Altaria,Altaria-Mega,false,false,10042
+335,Zangoose,Zangoose,true,true,470
+336,Seviper,Seviper,true,true,471
+337,Lunatone,Lunatone,true,true,472
+338,Solrock,Solrock,true,true,473
+339,Barboach,Barboach,true,true,474
+340,Whiscash,Whiscash,true,true,475
+341,Corphish,Corphish,true,true,476
+342,Crawdaunt,Crawdaunt,true,true,477
+343,Baltoy,Baltoy,true,true,478
+344,Claydol,Claydol,true,true,479
+345,Lileep,Lileep,true,true,480
+346,Cradily,Cradily,true,true,481
+347,Anorith,Anorith,true,true,482
+348,Armaldo,Armaldo,true,true,483
+349,Feebas,Feebas,true,true,484
+350,Milotic,Milotic,true,true,485
+5062,Milotic (Female),Milotic,true,true,486
+351,Castform,Castform,true,true,487
+6004,Castform (Rainy),Castform-Rainy,false,false,10043
+6005,Castform (Snowy),Castform-Snowy,false,false,10044
+6006,Castform (Sunny),Castform-Sunny,false,false,10045
+352,Kecleon,Kecleon,true,true,488
+353,Shuppet,Shuppet,true,true,489
+354,Banette,Banette,true,true,490
+7009,Mega Banette,Banette-Mega,false,false,10046
+355,Duskull,Duskull,true,true,491
+356,Dusclops,Dusclops,true,true,492
+357,Tropius,Tropius,true,true,493
+358,Chimecho,Chimecho,true,true,494
+359,Absol,Absol,true,true,495
+7002,Mega Absol,Absol-Mega,false,false,10047
+360,Wynaut,Wynaut,true,true,496
+361,Snorunt,Snorunt,true,true,497
+362,Glalie,Glalie,true,true,498
+7020,Mega Glalie,Glalie-Mega,false,false,10048
+363,Spheal,Spheal,true,true,499
+364,Sealeo,Sealeo,true,true,500
+365,Walrein,Walrein,true,true,501
+366,Clamperl,Clamperl,true,true,502
+367,Huntail,Huntail,true,true,503
+368,Gorebyss,Gorebyss,true,true,504
+369,Relicanth,Relicanth,true,true,505
+5063,Relicanth (Female),Relicanth,true,true,506
+370,Luvdisc,Luvdisc,true,true,507
+371,Bagon,Bagon,true,true,508
+372,Shelgon,Shelgon,true,true,509
+373,Salamence,Salamence,true,true,510
+7039,Mega Salamance,Salamance-Mega,false,false,10049
+374,Beldum,Beldum,true,true,511
+375,Metang,Metang,true,true,512
+376,Metagross,Metagross,true,true,513
+7032,Mega Metagross,Metagross-Mega,false,false,10050
+377,Regirock,Regirock,true,true,514
+378,Regice,Regice,true,true,515
+379,Registeel,Registeel,true,true,516
+380,Latias,Latias,true,true,517
+7025,Mega Latias,Latias-Mega,false,false,10051
+381,Latios,Latios,true,true,518
+7026,Mega Latios,Latios-Mega,false,false,10052
+382,Kyogre,Kyogre,true,true,519
+6092,Primal Kyogre,Kyogre-Primal,false,false,10053
+383,Groudon,Groudon,true,true,520
+383,Primal Groudon,Groudon-Primal,false,false,10054
+384,Rayquaza,Rayquaza,true,true,521
+7037,Mega Rayquaza,Rayquaza-Mega,false,false,10055
+385,Jirachi,Jirachi,true,true,522
+386,Deoxys,Deoxys,true,true,523
+6010,Deoxys (Attack),Deoxys-Attack,true,true,524
+6011,Deoxys (Defense),Deoxys-Defense,true,true,525
+6012,Deoxys (Speed),Deoxys-Speed,true,true,526
+387,Turtwig,Turtwig,true,true,527
+388,Grotle,Grotle,true,true,528
+389,Torterra,Torterra,true,true,529
+390,Chimchar,Chimchar,true,true,530
+391,Monferno,Monferno,true,true,531
+392,Infernape,Infernape,true,true,532
+393,Piplup,Piplup,true,true,533
+394,Prinplup,Prinplup,true,true,534
+395,Empoleon,Empoleon,true,true,535
+396,Starly,Starly,true,true,536
+5064,Starly (Female),Starly,true,true,537
+397,Staravia,Staravia,true,true,538
+5065,Staravia (Female),Staravia,true,true,539
+398,Staraptor,Staraptor,true,true,540
+5066,Staraptor (Female),Staraptor,true,true,541
+399,Bidoof,Bidoof,true,true,542
+5067,Bidoof (Female),Bidoof,true,true,543
+400,Bibarel,Bibarel,true,true,544
+5068,Bibarel (Female),Bibarel,true,true,545
+401,Kricketot,Kricketot,true,true,546
+5069,Kricketot (Female),Kricketot,true,true,547
+402,Kricketune,Kricketune,true,true,548
+5070,Kricketune (Female),Kricketune,true,true,549
+403,Shinx,Shinx,true,true,550
+5071,Shinx (Female),Shinx,true,true,551
+404,Luxio,Luxio,true,true,552
+5072,Luxio (Female),Luxio,true,true,553
+405,Luxray,Luxray,true,true,554
+5073,Luxray (Female),Luxray,true,true,555
+406,Budew,Budew,true,true,556
+407,Roserade,Roserade,true,true,557
+5074,Roserade (Female),Roserade,true,true,558
+408,Cranidos,Cranidos,true,true,559
+409,Rampardos,Rampardos,true,true,560
+410,Shieldon,Shieldon,true,true,561
+411,Bastiodon,Bastiodon,true,true,562
+412,Burmy (Plant),Burmy,true,true,563
+6002,Burmy (Sandy),Burmy-Sandy,true,true,564
+6003,Burmy (Trash),Burmy-Trash,true,true,565
+413,Wormadam (Plant),Wormadam,true,true,566
+6084,Wormadam (Sandy),Wormadam-Sandy,true,true,567
+6085,Wormadam (Trash),Wormadam-Trash,true,true,568
+414,Mothim,Mothim,true,true,569
+415,Combee,Combee,true,true,570
+5075,Combee (Female),Combee,true,true,571
+416,Vespiquen,Vespiquen,true,true,572
+417,Pachirisu,Pachirisu,true,true,573
+5076,Pachirisu (Female),Pachirisu,true,true,574
+418,Buizel,Buizel,true,true,575
+5077,Buizel (Female),Buizel,true,true,576
+419,Floatzel,Floatzel,true,true,577
+5078,Floatzel (Female),Floatzel,true,true,578
+420,Cherubi,Cherubi,true,true,579
+421,Cherrim,Cherrim,true,true,580
+422,Shellos (West),Shellos,true,true,581
+6080,Shellos (East),Shellos-East,true,true,582
+423,Gastrodon (West),Gastrodon,true,true,583
+6026,Gastrodon (East),Gastrodon-East,true,true,584
+424,Ambipom,Ambipom,true,true,585
+5079,Ambipom (Female),Ambipom,true,true,586
+425,Drifloon,Drifloon,true,true,587
+426,Drifblim,Drifblim,true,true,588
+427,Buneary,Buneary,true,true,589
+428,Lopunny,Lopunny,true,true,590
+7027,Mega Lopunny,Lopunny-Mega,false,false,10056
+429,Mismagius,Mismagius,true,true,591
+430,Honchkrow,Honchkrow,true,true,592
+431,Glameow,Glameow,true,true,593
+432,Purugly,Purugly,true,true,594
+433,Chingling,Chingling,true,true,595
+434,Stunky,Stunky,true,true,596
+435,Skuntank,Skuntank,true,true,597
+436,Bronzor,Bronzor,true,true,598
+437,Bronzong,Bronzong,true,true,599
+438,Bonsly,Bonsly,true,true,600
+439,Mime Jr.,Mime-Jr,true,true,601
+440,Happiny,Happiny,true,true,602
+441,Chatot,Chatot,true,true,603
+442,Spiritomb,Spiritomb,true,true,604
+443,Gible,Gible,true,true,605
+5080,Gible (Female),Gible,true,true,606
+444,Gabite,Gabite,true,true,607
+5081,Gabite (Female),Gabite,true,true,608
+445,Garchomp,Garchomp,true,true,609
+5082,Garchomp (Female),Garchomp,true,true,610
+7018,Mega Garchomp,Garchomp-Mega,false,false,10057
+446,Munchlax,Munchlax,true,true,611
+447,Riolu,Riolu,true,true,612
+448,Lucario,Lucario,true,true,613
+7028,Mega Lucario,Lucario-Mega,false,false,10058
+449,Hippopotas,Hippopotas,true,true,614
+5083,Hippopotas (Female),female/Hippopotas,true,true,615
+450,Hippowdon,Hippowdon,true,true,616
+5084,Hippowdon (Female),female/Hippowdon,true,true,617
+451,Skorupi,Skorupi,true,true,618
+452,Drapion,Drapion,true,true,619
+453,Croagunk,Croagunk,true,true,620
+5085,Croagunk (Female),Croagunk,true,true,621
+454,Toxicroak,Toxicroak,true,true,622
+5086,Toxicroak (Female),Toxicroak,true,true,623
+455,Carnivine,Carnivine,true,true,624
+456,Finneon,Finneon,true,true,625
+5087,Finneon (Female),Finneon,true,true,626
+457,Lumineon,Lumineon,true,true,627
+5088,Lumineon (Female),Lumineon,true,true,628
+458,Mantyke,Mantyke,true,true,629
+459,Snover,Snover,true,true,630
+5089,Snover (Female),Snover,true,true,631
+460,Abomasnow,Abomasnow,true,true,632
+5090,Abomasnow (Female),Abomasnow,true,true,633
+7001,Mega Abomasnow,Abomasnow-Mega,false,false,10059
+461,Weavile,Weavile,true,true,634
+5091,Weavile (Female),Weavile,true,true,635
+462,Magnezone,Magnezone,true,true,636
+463,Lickilicky,Lickilicky,true,true,637
+464,Rhyperior,Rhyperior,true,true,638
+5092,Rhyperior (Female),Rhyperior,true,true,639
+465,Tangrowth,Tangrowth,true,true,640
+5093,Tangrowth (Female),Tangrowth,true,true,641
+466,Electivire,Electivire,true,true,642
+467,Magmortar,Magmortar,true,true,643
+468,Togekiss,Togekiss,true,true,644
+469,Yanmega,Yanmega,true,true,645
+470,Leafeon,Leafeon,true,true,646
+471,Glaceon,Glaceon,true,true,647
+472,Gliscor,Gliscor,true,true,648
+473,Mamoswine,Mamoswine,true,true,649
+5094,Mamoswine (Female),Mamoswine,true,true,650
+474,Porygon-Z,Porygon-Z,true,true,651
+475,Gallade,Gallade,true,true,652
+7017,Mega Gallade,Gallade-Mega,false,false,10060
+476,Probopass,Probopass,true,true,653
+477,Dusknoir,Dusknoir,true,true,654
+478,Froslass,Froslass,true,true,655
+479,Rotom,Rotom,true,true,656
+6071,Fan Rotom,Rotom-Fan,true,true,657
+6072,Frost Rotom,Rotom-Frost,true,true,658
+6073,Heat Rotom,Rotom-Heat,true,true,659
+6074,Mox Rotom,Rotom-Mow,true,true,660
+6075,Wash Rotom,Rotom-Wash,true,true,661
+480,Uxie,Uxie,true,true,662
+481,Mesprit,Mesprit,true,true,663
+482,Azelf,Azelf,true,true,664
+483,Dialga,Dialga,true,true,665
+484,Palkia,Palkia,true,true,666
+485,Heatran,Heatran,true,true,667
+486,Regigigas,Regigigas,true,true,668
+487,Giratina (Altered),Giratina,true,true,669
+6027,Giratina (Origin),Giratina-Origin,true,true,670
+488,Cresselia,Cresselia,true,true,671
+489,Phione,Phione,true,true,672
+490,Manaphy,Manaphy,true,true,673
+491,Darkrai,Darkrai,true,true,674
+492,Shaymin (Land),Shaymin,true,true,675
+6079,Shaymin (Shy),Shaymin-Sky,true,true,676
+493,Arceus,Arceus,true,true,677
+9201,Arceus - Bug,arceus-bug,false,false,10061
+9202,Arceus - Dark,arceus-dark,false,false,10062
+9203,Arceus - Dragon,arceus-dragon,false,false,10063
+9204,Arceus - Electric,arceus-electric,false,false,10064
+9205,Arceus - Fairy,arceus-fairy,false,false,10065
+9206,Arceus - Fighting,arceus-fighting,false,false,10066
+9207,Arceus - Fire,arceus-fire,false,false,10067
+9208,Arceus - Flying,arceus-flying,false,false,10068
+9209,Arceus - Ghost,arceus-ghost,false,false,10069
+9210,Arceus - Grass,arceus-grass,false,false,10070
+9211,Arceus - Ground,arceus-ground,false,false,10071
+9212,Arceus - Ice,arceus-ice,false,false,10072
+9213,Arceus - Poison,arceus-poison,false,false,10073
+9214,Arceus - Psychic,arceus-psychic,false,false,10074
+9215,Arceus - Rock,arceus-rock,false,false,10075
+9216,Arceus - Steel,arceus-steel,false,false,10076
+9217,Arceus - Water,arceus-water,false,false,10077
+494,Victini,Victini,true,true,678
+495,Snivy,Snivy,true,true,679
+496,Servine,Servine,true,true,680
+497,Serperior,Serperior,true,true,681
+498,Tepig,Tepig,true,true,682
+499,Pignite,Pignite,true,true,683
+500,Emboar,Emboar,true,true,684
+501,Oshawott,Oshawott,true,true,685
+502,Dewott,Dewott,true,true,686
+503,Samurott,Samurott,true,true,687
+504,Patrat,Patrat,true,true,688
+505,Watchog,Watchog,true,true,689
+506,Lillipup,Lillipup,true,true,690
+507,Herdier,Herdier,true,true,691
+508,Stoutland,Stoutland,true,true,692
+509,Purrloin,Purrloin,true,true,693
+510,Liepard,Liepard,true,true,694
+511,Pansage,Pansage,true,true,695
+512,Simisage,Simisage,true,true,696
+513,Pansear,Pansear,true,true,697
+514,Simisear,Simisear,true,true,698
+515,Panpour,Panpour,true,true,699
+516,Simipour,Simipour,true,true,700
+517,Munna,Munna,true,true,701
+518,Musharna,Musharna,true,true,702
+519,Pidove,Pidove,true,true,703
+520,Tranquill,Tranquill,true,true,704
+521,Unfezant,Unfezant,true,true,705
+5095,Unfezant (Female),female/Unfezant,true,true,706
+522,Blitzle,Blitzle,true,true,707
+523,Zebstrika,Zebstrika,true,true,708
+524,Roggenrola,Roggenrola,true,true,709
+525,Boldore,Boldore,true,true,710
+526,Gigalith,Gigalith,true,true,711
+527,Woobat,Woobat,true,true,712
+528,Swoobat,Swoobat,true,true,713
+529,Drilbur,Drilbur,true,true,714
+530,Excadrill,Excadrill,true,true,715
+531,Audino,Audino,true,true,716
+7008,Mega Audino,Audino-Mega,false,false,10078
+532,Timburr,Timburr,true,true,717
+533,Gurdurr,Gurdurr,true,true,718
+534,Conkeldurr,Conkeldurr,true,true,719
+535,Tympole,Tympole,true,true,720
+536,Palpitoad,Palpitoad,true,true,721
+537,Seismitoad,Seismitoad,true,true,722
+538,Throh,Throh,true,true,723
+539,Sawk,Sawk,true,true,724
+540,Sewaddle,Sewaddle,true,true,725
+541,Swadloon,Swadloon,true,true,726
+542,Leavanny,Leavanny,true,true,727
+543,Venipede,Venipede,true,true,728
+544,Whirlipede,Whirlipede,true,true,729
+545,Scolipede,Scolipede,true,true,730
+546,Cottonee,Cottonee,true,true,731
+547,Whimsicott,Whimsicott,true,true,732
+548,Petilil,Petilil,true,true,733
+549,Lilligant,Lilligant,true,true,734
+550,Basculin (Red),Basculin,true,true,735
+6001,Basculin (Blue),Basculin-Blue-Striped,true,true,736
+551,Sandile,Sandile,true,true,737
+552,Krokorok,Krokorok,true,true,738
+553,Krookodile,Krookodile,true,true,739
+554,Darumaka,Darumaka,true,true,740
+8503,Galarian Darumaka,Darumaka-Galar,true,true,741
+555,Darmanitan,Darmanitan,true,true,742
+8502,Galarian Darmanitan,Darmanitan-Galar,true,true,743
+556,Maractus,Maractus,true,true,744
+557,Dwebble,Dwebble,true,true,745
+558,Crustle,Crustle,true,true,746
+559,Scraggy,Scraggy,true,true,747
+560,Scrafty,Scrafty,true,true,748
+561,Sigilyph,Sigilyph,true,true,749
+562,Yamask,Yamask,true,true,750
+8514,Galarian Yamask,Yamask-Galar,true,true,751
+563,Cofagrigus,Cofagrigus,true,true,752
+564,Tirtouga,Tirtouga,true,true,753
+565,Carracosta,Carracosta,true,true,754
+566,Archen,Archen,true,true,755
+567,Archeops,Archeops,true,true,756
+568,Trubbish,Trubbish,true,true,757
+569,Garbodor,Garbodor,true,true,758
+7513,G-Max Garbodor,Garbodor-Gmax,true,true,759
+570,Zorua,Zorua,true,true,760
+571,Zoroark,Zoroark,true,true,761
+572,Minccino,Minccino,true,true,762
+573,Cinccino,Cinccino,true,true,763
+574,Gothita,Gothita,true,true,764
+575,Gothorita,Gothorita,true,true,765
+576,Gothitelle,Gothitelle,true,true,766
+577,Solosis,Solosis,true,true,767
+578,Duosion,Duosion,true,true,768
+579,Reuniclus,Reuniclus,true,true,769
+580,Ducklett,Ducklett,true,true,770
+581,Swanna,Swanna,true,true,771
+582,Vanillite,Vanillite,true,true,772
+583,Vanillish,Vanillish,true,true,773
+584,Vanilluxe,Vanilluxe,true,true,774
+585,Deerling (Spring),Deerling,true,true,775
+6007,Deerling (Summer),Deerling-Summer,true,true,776
+6008,Deerling (Autumn),Deerling-Autumn,true,true,777
+6009,Deerling (Winter),Deerling-Winter,true,true,778
+586,Sawsbuck (Spring),Sawsbuck,true,true,779
+6076,Sawsbuck (Summer),Sawsbuck-Summer,true,true,780
+6077,Sawsbuck (Autumn),Sawsbuck-Autumn,true,true,781
+6078,Sawsbuck (Winter),Sawsbuck-Winter,true,true,782
+587,Emolga,Emolga,true,true,783
+588,Karrablast,Karrablast,true,true,784
+589,Escavalier,Escavalier,true,true,785
+590,Foongus,Foongus,true,true,786
+591,Amoonguss,Amoonguss,true,true,787
+592,Frillish,Frillish,true,true,788
+5096,Frillish (Female),female/Frillish,true,true,789
+593,Jellicent,Jellicent,true,true,790
+5097,Jellicent (Female),female/Jellicent,true,true,791
+594,Alomomola,Alomomola,true,true,792
+595,Joltik,Joltik,true,true,793
+596,Galvantula,Galvantula,true,true,794
+597,Ferroseed,Ferroseed,true,true,795
+598,Ferrothorn,Ferrothorn,true,true,796
+599,Klink,Klink,true,true,797
+600,Klang,Klang,true,true,798
+601,Klinklang,Klinklang,true,true,799
+602,Tynamo,Tynamo,true,true,800
+603,Eelektrik,Eelektrik,true,true,801
+604,Eelektross,Eelektross,true,true,802
+605,Elgyem,Elgyem,true,true,803
+606,Beheeyem,Beheeyem,true,true,804
+607,Litwick,Litwick,true,true,805
+608,Lampent,Lampent,true,true,806
+609,Chandelure,Chandelure,true,true,807
+610,Axew,Axew,true,true,808
+611,Fraxure,Fraxure,true,true,809
+612,Haxorus,Haxorus,true,true,810
+613,Cubchoo,Cubchoo,true,true,811
+614,Beartic,Beartic,true,true,812
+615,Cryogonal,Cryogonal,true,true,813
+616,Shelmet,Shelmet,true,true,814
+617,Accelgor,Accelgor,true,true,815
+618,Stunfisk,Stunfisk,true,true,816
+8512,Galarian Stunfisk,Stunfisk-Galar,true,true,817
+619,Mienfoo,Mienfoo,true,true,818
+620,Mienshao,Mienshao,true,true,819
+621,Druddigon,Druddigon,true,true,820
+622,Golett,Golett,true,true,821
+623,Golurk,Golurk,true,true,822
+624,Pawniard,Pawniard,true,true,823
+625,Bisharp,Bisharp,true,true,824
+626,Bouffalant,Bouffalant,true,true,825
+627,Rufflet,Rufflet,true,true,826
+628,Braviary,Braviary,true,true,827
+629,Vullaby,Vullaby,true,true,828
+630,Mandibuzz,Mandibuzz,true,true,829
+631,Heatmor,Heatmor,true,true,830
+632,Durant,Durant,true,true,831
+633,Deino,Deino,true,true,832
+634,Zweilous,Zweilous,true,true,833
+635,Hydreigon,Hydreigon,true,true,834
+636,Larvesta,Larvesta,true,true,835
+637,Volcarona,Volcarona,true,true,836
+638,Cobalion,Cobalion,true,true,837
+639,Terrakion,Terrakion,true,true,838
+640,Virizion,Virizion,true,true,839
+641,Tornadus (Incarnate),Tornadus,true,true,840
+6082,Tornadus (Therian),Tornadus-Therian,true,true,841
+642,Thundurus (Incarnate),Thundurus,true,true,842
+6081,Thundurus (Therian),Thundurus-Therian,true,true,843
+643,Reshiram,Reshiram,true,true,844
+644,Zekrom,Zekrom,true,true,845
+645,Landorus (Incarnate),Landorus,true,true,846
+6036,Landorus (Therian),Landorus-Therian,true,true,847
+646,Kyurem,Kyurem,true,true,848
+6034,Black Kyurem (Kyurem),Kyurem-Black,true,true,849
+6093,Black Kyurem (Zekrom),Kyurem-Black,true,true,850
+6035,White Kyurem (Kyurem),Kyurem-White,true,true,851
+6094,White Kyurem (Reshiram),Kyurem-White,true,true,852
+647,Keldeo,Keldeo,true,true,853
+6033,Keldeo (Resolute),Keldeo-Resolute,true,true,854
+648,Meloetta (Aria),Meloetta,true,true,855
+6040,Meloetta (Pirouette),Meloetta-Pirouette,true,true,856
+649,Genesect,Genesect,true,true,857
+650,Chespin,Chespin,true,true,858
+651,Quilladin,Quilladin,true,true,859
+652,Chesnaught,Chesnaught,true,true,860
+653,Fennekin,Fennekin,true,true,861
+654,Braixen,Braixen,true,true,862
+655,Delphox,Delphox,true,true,863
+656,Froakie,Froakie,true,true,864
+657,Frogadier,Frogadier,true,true,865
+658,Greninja,Greninja,true,true,866
+6031,Ash Greninja,Greninja-Ash,true,true,867
+659,Bunnelby,Bunnelby,true,true,868
+660,Diggersby,Diggersby,true,true,869
+661,Fletchling,Fletchling,true,true,870
+662,Fletchinder,Fletchinder,true,true,871
+663,Talonflame,Talonflame,true,true,872
+664,Scatterbug,Scatterbug,true,true,873
+665,Spewpa,Spewpa,true,true,874
+666,Vivillon,Vivillon,true,true,875
+9501,Vivillon - Archipelago,vivillon-archipelago,false,false,10079
+9502,Vivillon - Continental,vivillon-continental,false,false,10080
+9503,Vivillon - Elegant,vivillon-elegant,false,false,10081
+9504,Vivillon - Fancy,vivillon-fancy,false,false,10082
+9505,Vivillon - Garden,vivillon-garden,false,false,10083
+9506,Vivillon - High - Plains,vivillon-high-plains,false,false,10084
+9507,Vivillon - Icy - Snow,vivillon-icy-snow,false,false,10085
+9508,Vivillon - Jungle,vivillon-jungle,false,false,10086
+9509,Vivillon - Marine,vivillon-marine,false,false,10087
+9510,Vivillon - Modern,vivillon-modern,false,false,10088
+9511,Vivillon - Monsoon,vivillon-monsoon,false,false,10089
+9512,Vivillon - Ocean,vivillon-ocean,false,false,10090
+9513,Vivillon - Poke - Ball,vivillon-poke-ball,false,false,10091
+9514,Vivillon - Polar,vivillon-polar,false,false,10092
+9515,Vivillon - River,vivillon-river,false,false,10093
+9516,Vivillon - Sandstorm,vivillon-sandstorm,false,false,10094
+9517,Vivillon - Savanna,vivillon-savanna,false,false,10095
+9518,Vivillon - Sun,vivillon-sun,false,false,10096
+9519,Vivillon - Tundra,vivillon-tundra,false,false,10097
+667,Litleo,Litleo,true,true,876
+668,Pyroar,Pyroar,true,true,877
+5098,Pyroar (Female),female/Pyroar,true,true,878
+669,Flabebe (Red),Flabebe,true,true,879
+6014,Flabebe (Blue),Flabebe-Blue,true,true,880
+6015,Flabebe (Orange),Flabebe-Orange,true,true,881
+6016,Flabebe (White),Flabebe-White,true,true,882
+6017,Flabebe (Yellow),Flabebe-Yellow,true,true,883
+670,Floette (Red),Floette,true,true,884
+6018,Floette (Blue),Floette-Blue,true,true,885
+6019,Floette (Orange),Floette-Orange,true,true,886
+6020,Floette (White),Floette-White,true,true,887
+6021,Floette (Yellow),Floette-Yellow,true,true,888
+671,Florges (Red),Florges,true,true,889
+6022,Florges (Blue),Florges-Blue,true,true,890
+6023,Florges (Orange),Florges-Orange,true,true,891
+6024,Florges (White),Florges-White,true,true,892
+6025,Florges (Yellow),Florges-Yellow,true,true,893
+672,Skiddo,Skiddo,true,true,894
+673,Gogoat,Gogoat,true,true,895
+674,Pancham,Pancham,true,true,896
+675,Pangoro,Pangoro,true,true,897
+676,Furfrou,Furfrou,true,true,898
+677,Espurr,Espurr,true,true,899
+678,Meowstic,Meowstic,true,true,900
+5099,Meowstic (Female),female/Meowstic,true,true,901
+679,Honedge,Honedge,true,true,902
+680,Doublade,Doublade,true,true,903
+681,Aegislash,Aegislash,true,true,904
+682,Spritzee,Spritzee,true,true,905
+683,Aromatisse,Aromatisse,true,true,906
+684,Swirlix,Swirlix,true,true,907
+685,Slurpuff,Slurpuff,true,true,908
+686,Inkay,Inkay,true,true,909
+687,Malamar,Malamar,true,true,910
+688,Binacle,Binacle,true,true,911
+689,Barbaracle,Barbaracle,true,true,912
+690,Skrelp,Skrelp,true,true,913
+691,Dragalge,Dragalge,true,true,914
+692,Clauncher,Clauncher,true,true,915
+693,Clawitzer,Clawitzer,true,true,916
+694,Helioptile,Helioptile,true,true,917
+695,Heliolisk,Heliolisk,true,true,918
+696,Tyrunt,Tyrunt,true,true,919
+697,Tyrantrum,Tyrantrum,true,true,920
+698,Amaura,Amaura,true,true,921
+699,Aurorus,Aurorus,true,true,922
+700,Sylveon,Sylveon,true,true,923
+701,Hawlucha,Hawlucha,true,true,924
+702,Dedenne,Dedenne,true,true,925
+703,Carbink,Carbink,true,true,926
+704,Goomy,Goomy,true,true,927
+705,Sliggoo,Sliggoo,true,true,928
+706,Goodra,Goodra,true,true,929
+707,Klefki,Klefki,true,true,930
+708,Phantump,Phantump,true,true,931
+709,Trevenant,Trevenant,true,true,932
+6069,Pumpkaboo (Small),Pumpkaboo-Small,true,true,933
+710,Pumpkaboo (Average),Pumpkaboo,true,true,934
+6068,Pumpkaboo (Large),Pumpkaboo-Large,true,true,935
+6070,Pumpkaboo (Super),Pumpkaboo-Super,true,true,936
+6029,Gourgeist (Small),Gourgeist-Small,true,true,937
+711,Gourgeist (Average),Gourgeist,true,true,938
+6028,Gourgeist (Large),Gourgeist-Large,true,true,939
+6030,Gourgeist (Super),Gourgeist-Super,true,true,940
+712,Bergmite,Bergmite,true,true,941
+713,Avalugg,Avalugg,true,true,942
+714,Noibat,Noibat,true,true,943
+715,Noivern,Noivern,true,true,944
+716,Xerneas,Xerneas,true,true,945
+717,Yveltal,Yveltal,true,true,946
+6089,10% Zygarde,Zygarde-10,true,true,947
+718,50% Zygarde,Zygarde,true,true,948
+6090,Complete Zygarde,Zygarde-Complete,true,true,949
+719,Diancie,Diancie,true,true,950
+7016,Mega Diancie,Diancie-Mega,false,false,10098
+720,Hoopa,Hoopa,true,true,951
+6032,Hoopa Unbound,Hoopa-Unbound,true,true,952
+721,Volcanion,Volcanion,true,true,953
+722,Rowlet,Rowlet,true,true,954
+723,Dartrix,Dartrix,true,true,955
+724,Decidueye,Decidueye,true,true,956
+725,Litten,Litten,true,true,957
+726,Torracat,Torracat,true,true,958
+727,Incineroar,Incineroar,true,true,959
+728,Popplio,Popplio,true,true,960
+729,Brionne,Brionne,true,true,961
+730,Primarina,Primarina,true,true,962
+731,Pikipek,Pikipek,true,true,963
+732,Trumbeak,Trumbeak,true,true,964
+733,Toucannon,Toucannon,true,true,965
+734,Yungoos,Yungoos,true,true,966
+735,Gumshoos,Gumshoos,true,true,967
+736,Grubbin,Grubbin,true,true,968
+737,Charjabug,Charjabug,true,true,969
+738,Vikavolt,Vikavolt,true,true,970
+739,Crabrawler,Crabrawler,true,true,971
+740,Crabominable,Crabominable,true,true,972
+741,Baile Oricorio,Oricorio,true,true,973
+6050,Pau Oricorio,Oricorio-Pau,true,true,974
+6051,Pom Pom Oricorio,Oricorio-Pom-Pom,true,true,975
+6052,Sensu Oricorio,Oricorio-Sensu,true,true,976
+742,Cutiefly,Cutiefly,true,true,977
+743,Ribombee,Ribombee,true,true,978
+744,Rockruff,Rockruff,true,true,979
+745,Dawn Lycanroc,Lycanroc,true,true,980
+6037,Midnight Lycanroc,Lycanroc-Midnight,true,true,981
+6038,Dusk Lycanroc,Lycanroc-Dusk,true,true,982
+746,Wishiwashi,Wishiwashi,true,true,983
+747,Mareanie,Mareanie,true,true,984
+748,Toxapex,Toxapex,true,true,985
+749,Mudbray,Mudbray,true,true,986
+750,Mudsdale,Mudsdale,true,true,987
+751,Dewpider,Dewpider,true,true,988
+752,Araquanid,Araquanid,true,true,989
+753,Fomantis,Fomantis,true,true,990
+754,Lurantis,Lurantis,true,true,991
+755,Morelull,Morelull,true,true,992
+756,Shiinotic,Shiinotic,true,true,993
+757,Salandit,Salandit,true,true,994
+758,Salazzle,Salazzle,true,true,995
+759,Stufful,Stufful,true,true,996
+760,Bewear,Bewear,true,true,997
+761,Bounsweet,Bounsweet,true,true,998
+762,Steenee,Steenee,true,true,999
+763,Tsareena,Tsareena,true,true,1000
+764,Comfey,Comfey,true,true,1001
+765,Oranguru,Oranguru,true,true,1002
+766,Passimian,Passimian,true,true,1003
+767,Wimpod,Wimpod,true,true,1004
+768,Golisopod,Golisopod,true,true,1005
+769,Sandygast,Sandygast,true,true,1006
+770,Palossand,Palossand,true,true,1007
+771,Pyukumuku,Pyukumuku,true,true,1008
+772,Type-Null,Type-Null,true,true,1009
+773,Silvally,Silvally,true,true,1010
+9301,Silvally - Bug,silvally-bug,false,false,10099
+9302,Silvally - Dark,silvally-dark,false,false,10100
+9303,Silvally - Dragon,silvally-dragon,false,false,10101
+9304,Silvally - Electric,silvally-electric,false,false,10102
+9305,Silvally - Fairy,silvally-fairy,false,false,10103
+9306,Silvally - Fighting,silvally-fighting,false,false,10104
+9307,Silvally - Fire,silvally-fire,false,false,10105
+9308,Silvally - Flying,silvally-flying,false,false,10106
+9309,Silvally - Ghost,silvally-ghost,false,false,10107
+9310,Silvally - Grass,silvally-grass,false,false,10108
+9311,Silvally - Ground,silvally-ground,false,false,10109
+9312,Silvally - Ice,silvally-ice,false,false,10110
+9313,Silvally - Poison,silvally-poison,false,false,10111
+9314,Silvally - Psychic,silvally-psychic,false,false,10112
+9315,Silvally - Rock,silvally-rock,false,false,10113
+9316,Silvally - Steel,silvally-steel,false,false,10114
+9317,Silvally - Water,silvally-water,false,false,10115
+6045,Red Minior,Minior-Red,true,true,1011
+6044,Orange Minior,Minior-Orange,true,true,1012
+6047,Yellow Minior,Minior-Yellow,true,true,1013
+6042,Green Minior,Minior-Green,true,true,1014
+6041,Blue Minior,Minior-Blue,true,true,1015
+6043,Indigo Minior,Minior-Indigo,true,true,1016
+6046,Violet Minior,Minior-Violet,true,true,1017
+775,Komala,Komala,true,true,1018
+776,Turtonator,Turtonator,true,true,1019
+777,Togedemaru,Togedemaru,true,true,1020
+778,Mimikyu,Mimikyu,true,true,1021
+779,Bruxish,Bruxish,true,true,1022
+780,Drampa,Drampa,true,true,1023
+781,Dhelmise,Dhelmise,true,true,1024
+782,Jangmo-o,Jangmo-o,true,true,1025
+783,Hakamo-o,Hakamo-o,true,true,1026
+784,Kommo-o,Kommo-o,true,true,1027
+785,Tapu-Koko,Tapu-Koko,true,true,1028
+786,Tapu-Lele,Tapu-Lele,true,true,1029
+787,Tapu-Bulu,Tapu-Bulu,true,true,1030
+788,Tapu-Fini,Tapu-Fini,true,true,1031
+789,Cosmog,Cosmog,true,true,1032
+790,Cosmoem,Cosmoem,true,true,1033
+791,Solgaleo,Solgaleo,true,true,1034
+792,Lunala,Lunala,true,true,1035
+793,Nihilego,Nihilego,true,true,1036
+794,Buzzwole,Buzzwole,true,true,1037
+795,Pheromosa,Pheromosa,true,true,1038
+796,Xurkitree,Xurkitree,true,true,1039
+797,Celesteela,Celesteela,true,true,1040
+798,Kartana,Kartana,true,true,1041
+799,Guzzlord,Guzzlord,true,true,1042
+800,Necrozma,Necrozma,true,true,1043
+6048,Dusk Mane Necrozma (Necrozma),Necrozma-Dusk,true,true,1044
+6095,Dusk Mane Necrozma (Solgaleo),Necrozma-Dusk,true,true,1045
+6049,Dawn Wings Necrozma (Necrozma),Necrozma-Dawn,true,true,1046
+6096,Dawn Wings Necrozma (Lunala),Necrozma-Dawn,true,true,1047
+801,Magearna,Magearna,true,true,1048
+6039,Original Magearna,Magearna-Original,true,true,1049
+802,Marshadow,Marshadow,true,true,1050
+803,Poipole,Poipole,true,true,1051
+804,Naganadel,Naganadel,true,true,1052
+805,Stakataka,Stakataka,true,true,1053
+806,Blacephalon,Blacephalon,true,true,1054
+807,Zeraora,Zeraora,true,true,1055
+808,Meltan,Meltan,true,true,1056
+809,Melmetal,Melmetal,true,true,1057
+810,Grookey,Grookey,true,true,1058
+811,Thwackey,Thwackey,true,true,1059
+812,Rillaboom,Rillaboom,true,true,1060
+7525,G-Max Rillaboom,Rillaboom-Gmax,true,true,1061
+813,Scorbunny,Scorbunny,true,true,1062
+814,Raboot,Raboot,true,true,1063
+815,Cinderace,Cinderace,true,true,1064
+7505,G-Max Cinderace,Cinderace-Gmax,true,true,1065
+816,Sobble,Sobble,true,true,1066
+817,Drizzile,Drizzile,true,true,1067
+818,Inteleon,Inteleon,true,true,1068
+7518,G-Max Inteleon,Inteleon-Gmax,true,true,1069
+819,Skwovet,Skwovet,true,true,1070
+820,Greedent,Greedent,true,true,1071
+821,Rookidee,Rookidee,true,true,1072
+822,Corvisquire,Corvisquire,true,true,1073
+823,Corviknight,Corviknight,true,true,1074
+7508,G-Max Corviknight,Corviknight-Gmax,true,true,1075
+824,Blipbug,Blipbug,true,true,1076
+825,Dottler,Dottler,true,true,1077
+826,Orbeetle,Orbeetle,true,true,1078
+7523,G-Max Orbeetle,Orbeetle-Gmax,true,true,1079
+827,Nickit,Nickit,true,true,1080
+828,Thievul,Thievul,true,true,1081
+829,Gossifleur,Gossifleur,true,true,1082
+830,Eldegoss,Eldegoss,true,true,1083
+831,Wooloo,Wooloo,true,true,1084
+832,Dubwool,Dubwool,true,true,1085
+833,Chewtle,Chewtle,true,true,1086
+834,Drednaw,Drednaw,true,true,1087
+7509,G-Max Drednaw,Drednaw-Gmax,true,true,1088
+835,Yamper,Yamper,true,true,1089
+836,Boltund,Boltund,true,true,1090
+837,Rolycoly,Rolycoly,true,true,1091
+838,Carkol,Carkol,true,true,1092
+839,Coalossal,Coalossal,true,true,1093
+7506,G-Max Coalossal,Coalossal-Gmax,true,true,1094
+840,Applin,Applin,true,true,1095
+841,Flapple,Flapple,true,true,1096
+7512,G-Max Flapple,Flapple-Gmax,true,true,1097
+842,Appletun,Appletun,true,true,1098
+7512,G-Max Appletun,Flapple-Gmax,true,true,1099
+843,Silicobra,Silicobra,true,true,1100
+844,Sandaconda,Sandaconda,true,true,1101
+7526,G-Max Sandaconda,Sandaconda-Gmax,true,true,1102
+845,Cramorant,Cramorant,true,true,1103
+846,Arrokuda,Arrokuda,true,true,1104
+847,Barraskewda,Barraskewda,true,true,1105
+848,Toxel,Toxel,true,true,1106
+849,Amped Toxtricity,Toxtricity,true,true,1107
+7528,G-Max Amped Toxtricity,Toxtricity-Gmax,true,true,1108
+6083,Low Key Toxtricity,Toxtricity-Low-Key,true,true,1109
+7533,G-Max Low Key Toxtricity,Toxtricity-Gmax,true,true,1110
+850,Sizzlipede,Sizzlipede,true,true,1111
+851,Centiskorch,Centiskorch,true,true,1112
+7503,G-Max Centiskorch,Centiskorch-Gmax,true,true,1113
+852,Clobbopus,Clobbopus,true,true,1114
+853,Grapploct,Grapploct,true,true,1115
+854,Phony Sinistea,Sinistea,true,true,1116
+6099,Antique Sinistea,Sinistea,true,true,1117
+855,Phony Polteageist,Polteageist,true,true,1118
+6100,Antique Polteageist,Polteageist,true,true,1119
+856,Hatenna,Hatenna,true,true,1120
+857,Hattrem,Hattrem,true,true,1121
+858,Hatterene,Hatterene,true,true,1122
+7517,G-Max Hatterene,Hatterene-Gmax,true,true,1123
+859,Impidimp,Impidimp,true,true,1124
+860,Morgrem,Morgrem,true,true,1125
+861,Grimmsnarl,Grimmsnarl,true,true,1126
+7516,G-Max Grimmsnarl,Grimmsnarl-Gmax,true,true,1127
+862,Obstagoon,Obstagoon,true,true,1128
+863,Perrserker,Perrserker,true,true,1129
+864,Cursola,Cursola,true,true,1130
+865,Sirfetchd,Sirfetchd,true,true,1131
+866,Mr-Rime,Mr-Rime,true,true,1132
+867,Runerigus,Runerigus,true,true,1133
+868,Milcery,Milcery,true,true,1134
+869,Alcremie,Alcremie,true,true,1135
+9001,Alcremie,alcremie-caramel-swirl-berry,true,true,1136
+9002,Alcremie,alcremie-caramel-swirl-clover,true,true,1137
+9003,Alcremie,alcremie-caramel-swirl-flower,true,true,1138
+9004,Alcremie,alcremie-caramel-swirl-love,true,true,1139
+9005,Alcremie,alcremie-caramel-swirl-ribbon,true,true,1140
+9006,Alcremie,alcremie-caramel-swirl-star,true,true,1141
+9007,Alcremie,alcremie-caramel-swirl-strawberry,true,true,1142
+9008,Alcremie,alcremie-lemon-cream-berry,true,true,1143
+9009,Alcremie,alcremie-lemon-cream-clover,true,true,1144
+9010,Alcremie,alcremie-lemon-cream-flower,true,true,1145
+9011,Alcremie,alcremie-lemon-cream-love,true,true,1146
+9012,Alcremie,alcremie-lemon-cream-ribbon,true,true,1147
+9013,Alcremie,alcremie-lemon-cream-star,true,true,1148
+9014,Alcremie,alcremie-lemon-cream-strawberry,true,true,1149
+9015,Alcremie,alcremie-matcha-cream-berry,true,true,1150
+9016,Alcremie,alcremie-matcha-cream-clover,true,true,1151
+9017,Alcremie,alcremie-matcha-cream-flower,true,true,1152
+9018,Alcremie,alcremie-matcha-cream-love,true,true,1153
+9019,Alcremie,alcremie-matcha-cream-ribbon,true,true,1154
+9020,Alcremie,alcremie-matcha-cream-star,true,true,1155
+9021,Alcremie,alcremie-matcha-cream-strawberry,true,true,1156
+9022,Alcremie,alcremie-mint-cream-berry,true,true,1157
+9023,Alcremie,alcremie-mint-cream-clover,true,true,1158
+9024,Alcremie,alcremie-mint-cream-flower,true,true,1159
+9025,Alcremie,alcremie-mint-cream-love,true,true,1160
+9026,Alcremie,alcremie-mint-cream-ribbon,true,true,1161
+9027,Alcremie,alcremie-mint-cream-star,true,true,1162
+9028,Alcremie,alcremie-mint-cream-strawberry,true,true,1163
+9029,Alcremie,alcremie-rainbow-swirl-berry,true,true,1164
+9030,Alcremie,alcremie-rainbow-swirl-clover,true,true,1165
+9031,Alcremie,alcremie-rainbow-swirl-flower,true,true,1166
+9032,Alcremie,alcremie-rainbow-swirl-love,true,true,1167
+9033,Alcremie,alcremie-rainbow-swirl-ribbon,true,true,1168
+9034,Alcremie,alcremie-rainbow-swirl-star,true,true,1169
+9035,Alcremie,alcremie-rainbow-swirl-strawberry,true,true,1170
+9036,Alcremie,alcremie-ruby-cream-berry,true,true,1171
+9037,Alcremie,alcremie-ruby-cream-clover,true,true,1172
+9038,Alcremie,alcremie-ruby-cream-flower,true,true,1173
+9039,Alcremie,alcremie-ruby-cream-love,true,true,1174
+9040,Alcremie,alcremie-ruby-cream-ribbon,true,true,1175
+9041,Alcremie,alcremie-ruby-cream-star,true,true,1176
+9042,Alcremie,alcremie-ruby-cream-strawberry,true,true,1177
+9043,Alcremie,alcremie-ruby-swirl-berry,true,true,1178
+9044,Alcremie,alcremie-ruby-swirl-clover,true,true,1179
+9045,Alcremie,alcremie-ruby-swirl-flower,true,true,1180
+9046,Alcremie,alcremie-ruby-swirl-love,true,true,1181
+9047,Alcremie,alcremie-ruby-swirl-ribbon,true,true,1182
+9048,Alcremie,alcremie-ruby-swirl-star,true,true,1183
+9049,Alcremie,alcremie-ruby-swirl-strawberry,true,true,1184
+9050,Alcremie,alcremie-salted-cream-berry,true,true,1185
+9051,Alcremie,alcremie-salted-cream-clover,true,true,1186
+9052,Alcremie,alcremie-salted-cream-flower,true,true,1187
+9053,Alcremie,alcremie-salted-cream-love,true,true,1188
+9054,Alcremie,alcremie-salted-cream-ribbon,true,true,1189
+9055,Alcremie,alcremie-salted-cream-star,true,true,1190
+9056,Alcremie,alcremie-salted-cream-strawberry,true,true,1191
+9057,Alcremie,alcremie-vanilla-cream-berry,true,true,1192
+9058,Alcremie,alcremie-vanilla-cream-clover,true,true,1193
+9059,Alcremie,alcremie-vanilla-cream-flower,true,true,1194
+9060,Alcremie,alcremie-vanilla-cream-love,true,true,1195
+9061,Alcremie,alcremie-vanilla-cream-ribbon,true,true,1196
+9062,Alcremie,alcremie-vanilla-cream-star,true,true,1197
+9063,G-Max Alcremie Caramel Swirl Berry,Alcremie-Gmax,true,true,1198
+9064,G-Max Alcremie Caramel Swirl Clover,Alcremie-Gmax,true,true,1199
+9065,G-Max Alcremie Caramel Swirl Flower,Alcremie-Gmax,true,true,1200
+9066,G-Max Alcremie Caramel Swirl Love,Alcremie-Gmax,true,true,1201
+9067,G-Max Alcremie Caramel Swirl Ribbon,Alcremie-Gmax,true,true,1202
+9068,G-Max Alcremie Caramel Swirl Star,Alcremie-Gmax,true,true,1203
+9069,G-Max Alcremie Caramel Swirl Strawberry,Alcremie-Gmax,true,true,1204
+9070,G-Max Alcremie Lemon Cream Berry,Alcremie-Gmax,true,true,1205
+9071,G-Max Alcremie Lemon Cream Clover,Alcremie-Gmax,true,true,1206
+9072,G-Max Alcremie Lemon Cream Flower,Alcremie-Gmax,true,true,1207
+9073,G-Max Alcremie Lemon Cream Love,Alcremie-Gmax,true,true,1208
+9074,G-Max Alcremie Lemon Cream Ribbon,Alcremie-Gmax,true,true,1209
+9075,G-Max Alcremie Lemon Cream Star,Alcremie-Gmax,true,true,1210
+9076,G-Max Alcremie Lemon Cream Strawberry,Alcremie-Gmax,true,true,1211
+9077,G-Max Alcremie Matcha Cream Berry,Alcremie-Gmax,true,true,1212
+9078,G-Max Alcremie Matcha Cream Clover,Alcremie-Gmax,true,true,1213
+9079,G-Max Alcremie Matcha Cream Flower,Alcremie-Gmax,true,true,1214
+9080,G-Max Alcremie Matcha Cream Love,Alcremie-Gmax,true,true,1215
+9081,G-Max Alcremie Matcha Cream Ribbon,Alcremie-Gmax,true,true,1216
+9082,G-Max Alcremie Matcha Cream Star,Alcremie-Gmax,true,true,1217
+9083,G-Max Alcremie Matcha Cream Strawberry,Alcremie-Gmax,true,true,1218
+9084,G-Max Alcremie Mint Cream Berry,Alcremie-Gmax,true,true,1219
+9085,G-Max Alcremie Mint Cream Clover,Alcremie-Gmax,true,true,1220
+9086,G-Max Alcremie Mint Cream Flower,Alcremie-Gmax,true,true,1221
+9087,G-Max Alcremie Mint Cream Love,Alcremie-Gmax,true,true,1222
+9088,G-Max Alcremie Mint Cream Ribbon,Alcremie-Gmax,true,true,1223
+9089,G-Max Alcremie Mint Cream Star,Alcremie-Gmax,true,true,1224
+9090,G-Max Alcremie Mint Cream Strawberry,Alcremie-Gmax,true,true,1225
+9091,G-Max Alcremie Rainbow Swirl Berry,Alcremie-Gmax,true,true,1226
+9092,G-Max Alcremie Rainbow Swirl Clover,Alcremie-Gmax,true,true,1227
+9093,G-Max Alcremie Rainbow Swirl Flower,Alcremie-Gmax,true,true,1228
+9094,G-Max Alcremie Rainbow Swirl Love,Alcremie-Gmax,true,true,1229
+9095,G-Max Alcremie Rainbow Swirl Ribbon,Alcremie-Gmax,true,true,1230
+9096,G-Max Alcremie Rainbow Swirl Star,Alcremie-Gmax,true,true,1231
+9097,G-Max Alcremie Rainbow Swirl Strawberry,Alcremie-Gmax,true,true,1232
+9098,G-Max Alcremie Ruby Cream Berry,Alcremie-Gmax,true,true,1233
+9099,G-Max Alcremie Ruby Cream Clover,Alcremie-Gmax,true,true,1234
+9100,G-Max Alcremie Ruby Cream Flower,Alcremie-Gmax,true,true,1235
+9101,G-Max Alcremie Ruby Cream Love,Alcremie-Gmax,true,true,1236
+9102,G-Max Alcremie Ruby Cream Ribbon,Alcremie-Gmax,true,true,1237
+9103,G-Max Alcremie Ruby Cream Star,Alcremie-Gmax,true,true,1238
+9104,G-Max Alcremie Ruby Cream Strawberry,Alcremie-Gmax,true,true,1239
+9105,G-Max Alcremie Ruby Swirl Berry,Alcremie-Gmax,true,true,1240
+9106,G-Max Alcremie Ruby Swirl Clover,Alcremie-Gmax,true,true,1241
+9107,G-Max Alcremie Ruby Swirl Flower,Alcremie-Gmax,true,true,1242
+9108,G-Max Alcremie Ruby Swirl Love,Alcremie-Gmax,true,true,1243
+9109,G-Max Alcremie Ruby Swirl Ribbon,Alcremie-Gmax,true,true,1244
+9110,G-Max Alcremie Ruby Swirl Star,Alcremie-Gmax,true,true,1245
+9111,G-Max Alcremie Ruby Swirl Strawberry,Alcremie-Gmax,true,true,1246
+9112,G-Max Alcremie Salted Cream Berry,Alcremie-Gmax,true,true,1247
+9113,G-Max Alcremie Salted Cream Clover,Alcremie-Gmax,true,true,1248
+9114,G-Max Alcremie Salted Cream Flower,Alcremie-Gmax,true,true,1249
+9115,G-Max Alcremie Salted Cream Love,Alcremie-Gmax,true,true,1250
+9116,G-Max Alcremie Salted Cream Ribbon,Alcremie-Gmax,true,true,1251
+9117,G-Max Alcremie Salted Cream Star,Alcremie-Gmax,true,true,1252
+9118,G-Max Alcremie Salted Cream Strawberry,Alcremie-Gmax,true,true,1253
+9119,G-Max Alcremie Vanilla Cream Berry,Alcremie-Gmax,true,true,1254
+9120,G-Max Alcremie Vanilla Cream Clover,Alcremie-Gmax,true,true,1255
+9121,G-Max Alcremie Vanilla Cream Flower,Alcremie-Gmax,true,true,1256
+9122,G-Max Alcremie Vanilla Cream Love,Alcremie-Gmax,true,true,1257
+9123,G-Max Alcremie Vanilla Cream Ribbon,Alcremie-Gmax,true,true,1258
+9124,G-Max Alcremie Vanilla Cream Star,Alcremie-Gmax,true,true,1259
+7500,G-Max Alcremie Vanilla Cream Strawberry,Alcremie-Gmax,true,true,1260
+870,Falinks,Falinks,true,true,1261
+871,Pincurchin,Pincurchin,true,true,1262
+872,Snom,Snom,true,true,1263
+873,Frosmoth,Frosmoth,true,true,1264
+874,Stonjourner,Stonjourner,true,true,1265
+875,Eiscue,Eiscue,true,true,1266
+876,Indeedee,Indeedee,true,true,1267
+5100,Indeedee (Female),female/Indeedee,true,true,1268
+877,Morpeko,Morpeko,true,true,1269
+878,Cufant,Cufant,true,true,1270
+879,Copperajah,Copperajah,true,true,1271
+7507,G-Max Copperajah,Copperajah-Gmax,true,true,1272
+880,Dracozolt,Dracozolt,true,true,1273
+881,Arctozolt,Arctozolt,true,true,1274
+882,Dracovish,Dracovish,true,true,1275
+883,Arctovish,Arctovish,true,true,1276
+884,Duraludon,Duraludon,true,true,1277
+7510,G-Max Duraludon,Duraludon-Gmax,true,true,1278
+885,Dreepy,Dreepy,true,true,1279
+886,Drakloak,Drakloak,true,true,1280
+887,Dragapult,Dragapult,true,true,1281
+888,Zacian,Zacian,true,true,1282
+6086,Crowned Zacian,Zacian-Crowned,false,false,10116
+889,Zamazenta,Zamazenta,true,true,1283
+6087,Crowned Zamazenta,Zamazenta-Crowned,false,false,10117
+890,Eternatus,Eternatus,true,true,1284
+891,Kubfu,Kubfu,true,true,1285
+892,Single Strike Urshifu,Urshifu,true,false,1286
+7529,G-Max Single Strike Urshifu,Urshifu-Gmax,true,true,1287
+6098,Rapid Strike Urshifu,Urshifu,true,false,1288
+7530,G-Max Rapid Strike Urshifu,Urshifu-Rapid-Strike-Gmax,true,true,1289
+893,Zarude,Zarude,true,false,1290
+6088,Dada Zarude,Zarude-Dada,false,false,10118
